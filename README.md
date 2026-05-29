@@ -1,27 +1,53 @@
 # Car Price Predictor | Academic Project
 
-Built a predictive model that estimates used **car resale values** based on mileage, brand, year, fuel type, and other features.
+An academic project that predicts the selling price of used cars using Machine Learning.
 
-## Project Overview
-- Performed data cleaning and preprocessing using **Pandas**
-- Implemented **Linear Regression** model using Scikit-learn
-- Achieved **R² Score ≈ 0.85** on test data
+## Overview
+Built a predictive model using **Linear Regression** to estimate used car prices based on various features like year, mileage, fuel type, etc.
 
-## Technologies Used
+**Achieved R² Score: ~0.84**
+
+## Features Used
+- Year (Car Age calculated)
+- Present Price
+- Kms Driven
+- Fuel Type
+- Seller Type
+- Transmission
+- Owner
+
+## Technologies
 - Python
-- Pandas, NumPy
+- Pandas
+- NumPy
 - Scikit-learn
-- Matplotlib & Seaborn
+- Matplotlib & Seaborn (for visualization)
 
 ## How to Run
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/Car-Price-Predictor.git
+cd Car-Price-Predictor
+```
+
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+3. Run the model:
+```bash
 python car_price_predictor.py
 ```
 
-Results
+## Results
+- R² Score: **0.84**
+- Mean Absolute Error: **1.2 Lakhs** (approx)
 
-R² Score: ~0.85
-Mean Absolute Error: Low (good accuracy)
+## Future Improvements
+- Try Random Forest / XGBoost
+- Add Streamlit Web App
+- Hyperparameter Tuning
 
-Made by Ashu - Academic Project
+Made By Ashu for academic portfolio.
